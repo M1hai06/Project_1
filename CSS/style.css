@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.button {
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-weight: 1;
+}
+.button:link,
+.button:visited {
+  text-decoration: none;
+  color: #61a3ba;
+}
+.button:hover,
+.button:active {
+  font-size: 3rem;
+  color: #d2de32;
+  transition: all 0.7s;
+}
+.personal_details {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  row-gap: 2rem;
+  box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  margin-bottom: 3rem;
+}
+.img {
+  grid-column: 1;
+  grid-row: 1;
+  height: 17rem;
+  width: 15rem;
+  transition: all 1s;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+.PT {
+  grid-column: 2;
+  grid-row: 1;
+  line-height: 1.7;
+  font-size: 1.7rem;
+}
+.p1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.7rem;
+}
+h2 {
+  color: #61a3ba;
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+table {
+  margin-top: 1rem;
+  width: 50%;
+  height: 20rem;
+  border-collapse: collapse;
+}
+td {
+  font-size: 2rem;
+  background-color: #61a3ba;
+  color: #ffff;
+}
+tr:nth-child(2) {
+  font-size: 1.5rem;
+  background-color: aliceblue;
+}
+tr {
+  background-color: azure;
+  font-size: 1.5rem;
+}
+.table_l:link,
+.table_l:visited {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.table_l:hover,
+.table_l:active {
+  color: #d2de32;
+}
+.last_el {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+li {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+.change_1 {
+  content: "programator";
+}
+.two {
+  visibility: hidden;
+}
+.bt {
+  border-radius: 11px;
+  font-size: 3rem;
+  transition: all 0.7s;
+}
+.bt:hover {
+  background-color: #d2de32;
+  cursor: grab;
+}

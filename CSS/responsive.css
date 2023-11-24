@@ -1,0 +1,91 @@
+/* media queries */
+@media (max-width: 46em) {
+  .button:hover,
+  .button:active {
+    font-size: 2.5rem;
+  }
+  .img {
+    width: 13rem;
+    height: 15rem;
+  }
+  .PT,
+  .p1,
+  li {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  table {
+    width: 40%;
+    height: 18rem;
+  }
+  td {
+    font-size: 1.8rem;
+  }
+  tr {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 37em) {
+  .button:hover,
+  .button:active {
+    font-size: 2rem;
+  }
+  .img {
+    width: 11rem;
+    height: 13rem;
+  }
+  .PT,
+  .p1,
+  li {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  table {
+    width: 30%;
+    height: 16rem;
+  }
+  td {
+    font-size: 1.6rem;
+  }
+  tr {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 31em) {
+  .button:link,
+  .button:visited {
+    font-size: 1.5rem;
+  }
+  .button:hover,
+  .button:active {
+    font-size: 1.8rem;
+  }
+  .img {
+    width: 9rem;
+    height: 11rem;
+  }
+  .PT,
+  .p1,
+  li {
+    font-size: 1.1rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  table {
+    width: 20%;
+    height: 14rem;
+  }
+  td {
+    font-size: 1.4rem;
+  }
+  tr {
+    font-size: 0.9rem;
+  }
+}
